@@ -1,0 +1,1407 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>박씨네 보험톡 · 올바른 보험케어 | 박문성 분석팀장 - 약관해석 & 보상분쟁 가이드</title>
+  <meta name="description" content="보험을 팔지 않고 제대로 알려드립니다. (주)인슈코아 나래지사 올바른 보험케어 박문성 분석팀장의 최신 보험 제도 변경, 보상 분쟁 사례, 27개 보험사 청구·보장분석 안내 포털입니다." />
+  <meta name="keywords" content="박씨네보험톡, 올바른보험케어, 인슈코아나래지사, 박문성, 보험금청구대행, 보험분쟁사례, 실손보험제도변경, 간병인보험청구, 대구보험분석" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- 2026 AI 검색 최적화(GEO / AEO) 구조화 데이터 (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "FinancialService",
+        "name": "박씨네 보험톡 · 올바른 보험케어 ((주)인슈코아 나래지사)",
+        "description": "상품 권유 없는 순수 보험 약관 교육, 최신 보험 제도 변경 안내, 보험금 청구 분쟁 사례 분석 및 27개 손해·생명보험사 보장 분석·계약 관리 대행",
+        "telephone": "+82-10-2062-4600",
+        "faxNumber": "+82-508-918-4600",
+        "email": "pmsung@naver.com",
+        "employee": {
+          "@type": "Person",
+          "name": "박문성",
+          "jobTitle": "분석팀장 · 유튜브 박씨네 보험톡 진행자"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "달구벌대로 1834 성안광장 1306호",
+          "addressLocality": "달서구",
+          "addressRegion": "대구광역시",
+          "addressCountry": "KR"
+        },
+        "sameAs": [
+          "https://www.youtube.com/@박씨네보험톡"
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "국민건강보험 본인부담상한제 환급금을 받으면 실손보험금은 못 받나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "가입하신 실손의료비 세대(1세대 구실손 vs 2~4세대 표준화 이후 실손)와 약관 면책조항에 따라 지급 기준이 다릅니다. 보험사의 일방적인 부지급 안내를 그대로 수용하기 전 약관상 공제 근거를 반드시 확인해야 합니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "간병인 사용일당 보험금을 청구할 때 가장 흔히 거절되는 이유는 무엇인가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "사업자등록이 없는 개인 간병인 이용, 간이영수증만 제출하고 간호간병통합서비스와 혼동한 경우, 또는 실질 간병 활동 증빙(간병일지·계좌이체 내역)이 누락된 경우 보험금 지급이 거절되거나 삭감될 수 있습니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "기존에 가입한 보험 증권이 제대로 되어 있는지 무료 점검만 받아도 되나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "네, 가능합니다. 올바른 보험케어는 불필요한 신규 가입을 권유하지 않으며, 현재 유지 중인 보험의 중복 담보, 갱신형 폭탄 여부, 누락된 청구 가능 보험금을 객관적으로 분석해 드립니다."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --forest-deep: #0b251c;
+      --forest-card: #12382b;
+      --emerald-main: #0f766e;
+      --emerald-bright: #14b8a6;
+      --warm-gold: #d97706;
+      --gold-light: #fef3c7;
+      --kakao-yellow: #fee500;
+      --kakao-brown: #191919;
+      --bg-cream: #f6f8f7;
+      --text-dark: #1e293b;
+      --text-gray: #52606d;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Noto Sans KR', sans-serif; color: var(--text-dark); line-height: 1.65; background: #fff; word-break: keep-all; }
+    a { text-decoration: none; color: inherit; }
+
+    /* 상단 내비게이션 */
+    header {
+      position: fixed; top: 0; width: 100%; background: rgba(11, 37, 28, 0.98);
+      color: #fff; z-index: 1000; border-bottom: 1px solid rgba(20, 184, 166, 0.35);
+    }
+    .nav-container {
+      max-width: 1180px; margin: 0 auto; padding: 14px 20px;
+      display: flex; justify-content: space-between; align-items: center; gap: 16px;
+    }
+    .logo {
+      font-size: 1.24rem; font-weight: 900; letter-spacing: -0.5px;
+      display: flex; align-items: center; gap: 8px; white-space: nowrap;
+    }
+    .logo-tag { font-size: 0.72rem; background: var(--emerald-main); color: #fff; padding: 2px 8px; border-radius: 4px; font-weight: 700; }
+    nav ul { display: flex; list-style: none; gap: 16px; font-size: 0.88rem; font-weight: 500; white-space: nowrap; }
+    nav ul li a:hover { color: var(--emerald-bright); transition: 0.2s; }
+
+    .mobile-menu-btn {
+      display: none; background: none; border: 1px solid rgba(255,255,255,0.3);
+      color: #fff; font-size: 1.3rem; padding: 4px 10px; border-radius: 6px; cursor: pointer;
+    }
+    .mobile-dropdown {
+      display: none; flex-direction: column; background: var(--forest-card);
+      border-top: 1px solid rgba(20, 184, 166, 0.3); padding: 12px 20px;
+    }
+    .mobile-dropdown.open { display: flex; }
+    .mobile-dropdown a {
+      padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.08);
+      font-size: 0.95rem; font-weight: 500; color: #e2e8f0;
+    }
+    .mobile-dropdown a:last-child { border-bottom: none; }
+
+    /* 히어로 섹션 */
+    .hero {
+      background: linear-gradient(135deg, var(--forest-deep) 0%, var(--forest-card) 100%);
+      color: #fff; padding: 130px 20px 80px; position: relative; overflow: hidden;
+    }
+    .hero-grid {
+      max-width: 1180px; margin: 0 auto; display: grid;
+      grid-template-columns: 1.35fr 0.85fr; gap: 40px; align-items: center;
+    }
+    .hero-badge {
+      display: inline-block; background: rgba(20, 184, 166, 0.2); color: #5eead4;
+      border: 1px solid var(--emerald-bright); padding: 6px 16px; border-radius: 50px;
+      font-size: 0.83rem; font-weight: 700; margin-bottom: 18px;
+    }
+    .hero h1 { font-size: 2.34rem; font-weight: 900; line-height: 1.32; margin-bottom: 18px; letter-spacing: -1px; }
+    .hero h1 span { color: #fbbf24; }
+    .hero-desc { font-size: 1.02rem; color: #d1fae5; margin-bottom: 24px; font-weight: 300; }
+    
+    .slogan-banner {
+      background: rgba(251, 191, 36, 0.12); border-left: 4px solid #fbbf24;
+      padding: 13px 18px; border-radius: 8px; margin-bottom: 24px;
+      font-size: 0.95rem; color: #fef3c7; font-weight: 700;
+    }
+
+    .quick-contact {
+      display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 26px;
+      font-size: 0.9rem; color: #e2e8f0;
+    }
+    .quick-contact strong { color: #fff; }
+
+    .btn-group { display: flex; gap: 10px; flex-wrap: wrap; }
+    .btn-primary {
+      background: var(--emerald-main); color: #fff; font-weight: 800;
+      padding: 14px 22px; border-radius: 6px; font-size: 0.95rem; transition: 0.2s; display: inline-flex; align-items: center; gap: 6px; cursor: pointer; border: none;
+    }
+    .btn-primary:hover { background: var(--emerald-bright); color: var(--forest-deep); transform: translateY(-2px); }
+    .btn-kakao {
+      background: var(--kakao-yellow); color: var(--kakao-brown); font-weight: 800;
+      padding: 14px 22px; border-radius: 6px; font-size: 0.95rem; transition: 0.2s; display: inline-flex; align-items: center; gap: 6px; cursor: pointer; border: none;
+    }
+    .btn-kakao:hover { filter: brightness(0.95); transform: translateY(-2px); }
+    .btn-outline {
+      border: 1px solid rgba(255,255,255,0.5); color: #fff; font-weight: 600;
+      padding: 14px 20px; border-radius: 6px; font-size: 0.95rem; transition: 0.2s; display: inline-flex; align-items: center; gap: 6px; cursor: pointer; background: transparent;
+    }
+    .btn-outline:hover { background: rgba(255,255,255,0.1); }
+
+    /* 우측 프로필 카드 */
+    .profile-card { text-align: center; }
+    .circle-frame {
+      width: 250px; height: 250px; margin: 0 auto 16px; border-radius: 50%;
+      border: 5px solid #fbbf24; background: #fff; overflow: hidden;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.4); display: flex; align-items: center; justify-content: center;
+    }
+    .circle-frame img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
+    .profile-fallback { color: var(--forest-deep); font-weight: 900; font-size: 1.15rem; padding: 20px; text-align: center; line-height: 1.5; }
+    .profile-org { font-size: 0.86rem; color: #5eead4; font-weight: 700; margin-bottom: 4px; }
+    .profile-name { font-size: 1.45rem; font-weight: 900; letter-spacing: 1px; }
+    .profile-role { color: #fbbf24; font-weight: 700; font-size: 0.94rem; margin-top: 2px; }
+
+    /* 핵심 신뢰 지표 벤토 그리드(Bento Grid) */
+    .bento-bar {
+      background: #071913; border-top: 1px solid rgba(255,255,255,0.08);
+      padding: 28px 20px; color: #fff;
+    }
+    .bento-grid {
+      max-width: 1180px; margin: 0 auto; display: grid;
+      grid-template-columns: repeat(4, 1fr); gap: 16px;
+    }
+    .bento-item {
+      background: rgba(255,255,255,0.05); border: 1px solid rgba(20, 184, 166, 0.28);
+      border-radius: 12px; padding: 18px 20px;
+    }
+    .bento-label { font-size: 0.76rem; color: #5eead4; font-weight: 700; margin-bottom: 4px; }
+    .bento-value { font-size: 1.15rem; font-weight: 900; color: #fff; margin-bottom: 4px; }
+    .bento-sub { font-size: 0.82rem; color: #a7f3d0; }
+
+    /* 공통 섹션 */
+    section { padding: 85px 20px; }
+    .container { max-width: 1180px; margin: 0 auto; }
+    .section-title { text-align: center; margin-bottom: 48px; }
+    .section-title span { color: var(--emerald-main); font-weight: 800; font-size: 0.88rem; letter-spacing: 1.2px; display: block; margin-bottom: 8px; }
+    .section-title h2 { font-size: 2rem; font-weight: 900; color: var(--forest-deep); letter-spacing: -0.5px; }
+    .section-title p { color: var(--text-gray); margin-top: 10px; font-size: 1rem; }
+
+    /* 4대 최신 제도 변경 & 분쟁 사례 핵심 리포트 */
+    .guide-sec { background: var(--bg-cream); border-bottom: 1px solid #d1fae5; }
+    .grid-4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(255px, 1fr)); gap: 22px; }
+    .card {
+      background: #fff; border: 1px solid #cbd5e1; border-radius: 12px; padding: 30px 24px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.03); transition: 0.3s; display: flex; flex-direction: column;
+      border-top: 4px solid var(--forest-deep);
+    }
+    .card:hover { transform: translateY(-5px); border-top-color: var(--emerald-main); box-shadow: 0 10px 28px rgba(15, 118, 110, 0.12); }
+    .card-tag { font-size: 0.78rem; font-weight: 800; color: var(--emerald-main); margin-bottom: 10px; letter-spacing: 0.5px; }
+    .card h3 { font-size: 1.22rem; font-weight: 800; color: var(--forest-deep); margin-bottom: 12px; }
+    .card p { color: var(--text-gray); font-size: 0.92rem; flex-grow: 1; }
+    .card-list { margin-top: 16px; padding-top: 14px; border-top: 1px dashed #cbd5e1; list-style: none; font-size: 0.85rem; color: #334155; }
+    .card-list li { margin-bottom: 5px; }
+    .card-list li::before { content: "✓ "; color: var(--emerald-main); font-weight: 900; }
+    .btn-detail {
+      margin-top: 16px; width: 100%; padding: 10px; background: #ecfdf5;
+      border: 1px solid #a7f3d0; border-radius: 6px; color: var(--forest-deep);
+      font-weight: 800; font-size: 0.86rem; cursor: pointer; transition: 0.2s;
+    }
+    .btn-detail:hover { background: var(--emerald-main); color: #fff; border-color: var(--emerald-main); }
+
+    /* 유튜브 '박씨네 보험톡' 방송 & 시리즈 라운지 */
+    .youtube-sec { background: #fff; border-bottom: 1px solid #e2e8f0; }
+    .yt-grid {
+      display: grid; grid-template-columns: 1.2fr 1fr; gap: 36px; align-items: center;
+      background: var(--bg-cream); border: 1px solid #cbd5e1; border-radius: 16px; padding: 36px;
+    }
+    .video-frame {
+      position: relative; width: 100%; padding-bottom: 56.25%; height: 0;
+      border-radius: 12px; overflow: hidden; background: linear-gradient(135deg, #0b251c 0%, #0f766e 100%);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+    }
+    .video-frame iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+    .yt-channel-banner {
+      position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center;
+      justify-content: center; text-align: center; color: #fff; padding: 24px;
+    }
+    .yt-play-circle {
+      width: 68px; height: 68px; border-radius: 50%; background: #dc2626;
+      display: flex; align-items: center; justify-content: center; font-size: 1.7rem;
+      margin-bottom: 14px; box-shadow: 0 8px 25px rgba(220, 38, 38, 0.5); transition: 0.2s;
+    }
+    .yt-channel-banner:hover .yt-play-circle { transform: scale(1.08); }
+    .yt-channel-banner h4 { font-size: 1.35rem; font-weight: 900; margin-bottom: 6px; }
+    .yt-channel-banner span { font-size: 0.88rem; color: #a7f3d0; }
+
+    .yt-badge {
+      display: inline-block; background: #fee2e2; color: #b91c1c; font-weight: 800;
+      font-size: 0.8rem; padding: 4px 12px; border-radius: 4px; margin-bottom: 12px;
+    }
+    .yt-info h3 { font-size: 1.48rem; font-weight: 900; color: var(--forest-deep); margin-bottom: 12px; line-height: 1.35; }
+    .yt-info p { color: var(--text-gray); font-size: 0.94rem; margin-bottom: 18px; }
+    .series-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px; }
+    .series-tag {
+      background: #fff; border: 1px solid #cbd5e1; color: var(--forest-deep);
+      font-size: 0.8rem; font-weight: 700; padding: 5px 10px; border-radius: 20px;
+    }
+    .btn-youtube {
+      display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+      background: #dc2626; color: #fff; font-weight: 800; padding: 14px 24px;
+      border-radius: 8px; font-size: 0.96rem; transition: 0.2s; width: 100%;
+    }
+    .btn-youtube:hover { background: #b91c1c; transform: translateY(-2px); }
+
+    /* 주간 보험 상식 카드뉴스 슬라이드 뷰어 */
+    .weekly-sec { background: var(--bg-cream); border-bottom: 1px solid #e2e8f0; }
+    .viewer-wrapper {
+      max-width: 680px; margin: 0 auto; background: #fff; border-radius: 16px;
+      padding: 24px; box-shadow: 0 12px 35px rgba(11, 37, 28, 0.08); border: 1px solid #cbd5e1;
+    }
+    .viewer-header {
+      display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap;
+      margin-bottom: 16px; padding-bottom: 14px; border-bottom: 1px solid #e2e8f0;
+    }
+    .issue-select-wrap { display: flex; align-items: center; gap: 8px; }
+    .issue-select-wrap label { font-size: 0.84rem; font-weight: 800; color: var(--forest-deep); white-space: nowrap; }
+    .issue-select {
+      padding: 7px 12px; border-radius: 8px; border: 2px solid var(--emerald-main);
+      background: #ecfdf5; color: var(--forest-deep); font-family: inherit;
+      font-size: 0.9rem; font-weight: 800; cursor: pointer; outline: none;
+    }
+    .page-indicator { font-weight: 800; color: var(--emerald-main); font-size: 0.95rem; }
+    
+    .slide-stage {
+      position: relative; width: 100%; background: #0f172a; border-radius: 10px;
+      overflow: hidden; min-height: 400px; display: flex; align-items: center; justify-content: center;
+    }
+    .slide-stage img { width: 100%; height: auto; display: block; object-fit: contain; }
+    .slide-placeholder { color: #cbd5e1; text-align: center; padding: 60px 20px; font-size: 0.95rem; }
+    .nav-arrow {
+      position: absolute; top: 50%; transform: translateY(-50%);
+      background: rgba(11, 37, 28, 0.78); color: #fff; border: 1px solid rgba(255,255,255,0.3);
+      width: 44px; height: 44px; border-radius: 50%; font-size: 1.2rem; font-weight: 900;
+      cursor: pointer; display: flex; align-items: center; justify-content: center; transition: 0.2s;
+    }
+    .nav-arrow:hover { background: var(--emerald-main); }
+    .nav-arrow.prev { left: 12px; }
+    .nav-arrow.next { right: 12px; }
+
+    .viewer-controls { display: flex; justify-content: center; margin-top: 16px; }
+    .thumb-dots { display: flex; gap: 6px; flex-wrap: wrap; justify-content: center; }
+    .dot-btn {
+      width: 30px; height: 30px; border-radius: 6px; border: 1px solid #cbd5e1;
+      background: #f8fafc; font-size: 0.8rem; font-weight: 700; cursor: pointer; color: var(--forest-deep);
+    }
+    .dot-btn.active { background: var(--emerald-main); color: #fff; border-color: var(--emerald-main); }
+    .btn-share {
+      width: 100%; margin-top: 16px; background: var(--kakao-yellow); color: var(--kakao-brown); font-weight: 800;
+      border: none; padding: 13px; border-radius: 8px; font-size: 0.95rem; cursor: pointer;
+    }
+
+    /* 27개 제휴 보험사 고객센터 원클릭 안내판 (명함 뒷면 구현) */
+    .insurers-sec { background: var(--forest-deep); color: #fff; }
+    .insurers-sec .section-title span { color: #5eead4; }
+    .insurers-sec .section-title h2 { color: #fff; }
+    .insurers-sec .section-title p { color: #a7f3d0; }
+    
+    .insurer-tip {
+      background: rgba(251, 191, 36, 0.14); border: 1px solid rgba(251, 191, 36, 0.45);
+      border-radius: 12px; padding: 18px 22px; margin-bottom: 32px; text-align: center;
+      font-size: 0.95rem; color: #fef3c7;
+    }
+    .insurer-tip strong { color: #fbbf24; }
+
+    .insurer-cat-title {
+      font-size: 1.05rem; font-weight: 800; color: #5eead4; margin: 24px 0 14px;
+      padding-left: 10px; border-left: 4px solid #fbbf24;
+    }
+    .insurer-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(185px, 1fr)); gap: 10px;
+    }
+    .insurer-card {
+      background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 8px; padding: 12px 14px; display: flex; justify-content: space-between;
+      align-items: center; transition: 0.2s;
+    }
+    .insurer-card:hover { background: rgba(20, 184, 166, 0.22); border-color: #5eead4; }
+    .insurer-name { font-size: 0.88rem; font-weight: 700; color: #fff; }
+    .insurer-tel { font-size: 0.84rem; font-weight: 800; color: #fbbf24; }
+
+    /* FAQ 아코디언 */
+    .faq-sec { background: #fff; border-top: 1px solid #e2e8f0; }
+    .faq-list { max-width: 820px; margin: 0 auto; display: flex; flex-direction: column; gap: 12px; }
+    .faq-item { border: 1px solid #cbd5e1; border-radius: 10px; overflow: hidden; background: #fff; }
+    .faq-q {
+      width: 100%; text-align: left; padding: 18px 22px; background: var(--bg-cream);
+      border: none; font-family: inherit; font-size: 0.98rem; font-weight: 800; color: var(--forest-deep);
+      display: flex; justify-content: space-between; align-items: center; gap: 12px; cursor: pointer;
+    }
+    .faq-q:hover { background: #e2e8f0; }
+    .faq-q span.icon { font-size: 1.2rem; color: var(--emerald-main); transition: 0.25s; }
+    .faq-item.open .faq-q span.icon { transform: rotate(45deg); }
+    .faq-a {
+      display: none; padding: 18px 22px; font-size: 0.93rem; color: #334155;
+      border-top: 1px solid #e2e8f0; line-height: 1.7; background: #fff;
+    }
+    .faq-item.open .faq-a { display: block; }
+
+    /* 무료 보장분석 · 청구대행 · 사연 제보 폼 */
+    .contact-sec { background: var(--bg-cream); }
+    .form-box {
+      max-width: 720px; margin: 0 auto; background: #fff; border: 1px solid #cbd5e1;
+      border-radius: 14px; padding: 42px; box-shadow: 0 12px 32px rgba(0,0,0,0.06);
+    }
+    .form-group { margin-bottom: 20px; }
+    .form-group label { display: block; font-weight: 700; margin-bottom: 8px; font-size: 0.92rem; color: var(--forest-deep); }
+    .form-group input, .form-group select, .form-group textarea {
+      width: 100%; padding: 13px 14px; border: 1px solid #cbd5e1; border-radius: 6px;
+      font-family: inherit; font-size: 0.95rem;
+    }
+    .privacy-box {
+      background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 8px;
+      padding: 14px 16px; margin-bottom: 20px; display: flex; align-items: center;
+      justify-content: space-between; gap: 10px; flex-wrap: wrap;
+    }
+    .privacy-check {
+      display: flex; align-items: center; gap: 8px; font-size: 0.9rem; font-weight: 700;
+      color: var(--forest-deep); cursor: pointer;
+    }
+    .privacy-check input[type="checkbox"] { width: 18px; height: 18px; accent-color: var(--emerald-main); cursor: pointer; }
+    .privacy-view-btn {
+      background: none; border: 1px solid #94a3b8; color: #475569; font-size: 0.78rem;
+      font-weight: 700; padding: 4px 10px; border-radius: 4px; cursor: pointer;
+    }
+    .btn-submit {
+      width: 100%; background: var(--forest-deep); color: #fff; font-weight: 800;
+      padding: 16px; border: none; border-radius: 6px; font-size: 1.05rem; cursor: pointer; transition: 0.2s;
+    }
+    .btn-submit:hover { background: var(--emerald-main); }
+
+    /* 모달 팝업 */
+    .modal-overlay {
+      display: none; position: fixed; inset: 0; background: rgba(7, 25, 19, 0.78);
+      z-index: 2000; align-items: center; justify-content: center; padding: 20px;
+    }
+    .modal-overlay.open { display: flex; }
+    .modal-card {
+      background: #fff; max-width: 560px; width: 100%; border-radius: 14px; padding: 34px 28px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.3); position: relative; border-top: 5px solid var(--emerald-main);
+      max-height: 88vh; overflow-y: auto;
+    }
+    .modal-close {
+      position: absolute; top: 18px; right: 20px; background: none; border: none;
+      font-size: 1.5rem; cursor: pointer; color: var(--text-gray);
+    }
+    .modal-card h3 { font-size: 1.35rem; font-weight: 900; color: var(--forest-deep); margin-bottom: 12px; }
+    .modal-card p { font-size: 0.94rem; color: var(--text-gray); margin-bottom: 18px; }
+    .modal-list { list-style: none; background: var(--bg-cream); padding: 18px; border-radius: 10px; margin-bottom: 22px; font-size: 0.9rem; }
+    .modal-list li { margin-bottom: 8px; color: var(--text-dark); }
+    .modal-list li::before { content: "✔ "; color: var(--emerald-main); font-weight: 900; }
+
+    /* 박씨네 보험톡 AI 약관·분쟁 챗봇 위젯 */
+    .ai-launcher {
+      position: fixed; right: 24px; bottom: 24px; z-index: 1800;
+      display: flex; align-items: center; gap: 12px;
+      background: linear-gradient(135deg, var(--forest-deep) 0%, var(--emerald-main) 100%);
+      color: #fff; border: 2px solid rgba(255,255,255,0.25); border-radius: 50px;
+      padding: 8px 18px 8px 10px; box-shadow: 0 12px 30px rgba(11, 37, 28, 0.38);
+      cursor: pointer; transition: 0.25s;
+    }
+    .ai-launcher:hover { transform: translateY(-3px); }
+    .ai-avatar-badge {
+      width: 46px; height: 46px; border-radius: 50%; background: #fff;
+      display: flex; align-items: center; justify-content: center; overflow: hidden; flex-shrink: 0;
+      border: 2px solid #fbbf24;
+    }
+    .ai-launcher-text { text-align: left; line-height: 1.25; }
+    .ai-launcher-text strong { display: block; font-size: 0.92rem; font-weight: 800; }
+    .ai-launcher-text span { font-size: 0.75rem; color: #a7f3d0; }
+
+    .chat-window {
+      display: none; position: fixed; right: 24px; bottom: 94px; z-index: 1900;
+      width: 390px; max-width: calc(100vw - 32px); height: 620px; max-height: calc(100vh - 125px);
+      background: #fff; border-radius: 18px; overflow: hidden;
+      box-shadow: 0 22px 55px rgba(11, 37, 28, 0.35); border: 1px solid #cbd5e1;
+      flex-direction: column;
+    }
+    .chat-window.open { display: flex; }
+
+    .chat-header {
+      background: linear-gradient(135deg, var(--forest-deep) 0%, var(--forest-card) 100%);
+      color: #fff; padding: 14px 18px; display: flex; align-items: center; justify-content: space-between;
+      border-bottom: 2px solid var(--emerald-bright);
+    }
+    .chat-header-info { display: flex; align-items: center; gap: 10px; }
+    .chat-header-avatar {
+      width: 42px; height: 42px; border-radius: 50%; background: #fff;
+      border: 2px solid #fbbf24; display: flex; align-items: center; justify-content: center; overflow: hidden;
+    }
+    .chat-header-title strong { display: block; font-size: 0.98rem; font-weight: 800; }
+    .chat-header-title span { font-size: 0.74rem; color: #a7f3d0; display: block; }
+    .chat-close-btn {
+      background: rgba(255,255,255,0.12); border: none; color: #fff;
+      width: 30px; height: 30px; border-radius: 50%; font-size: 1rem; cursor: pointer;
+    }
+
+    .chat-body {
+      flex: 1; padding: 16px; overflow-y: auto; background: #f1f5f9;
+      display: flex; flex-direction: column; gap: 12px;
+    }
+    .msg { max-width: 88%; padding: 12px 14px; border-radius: 14px; font-size: 0.88rem; line-height: 1.55; }
+    .msg.bot {
+      align-self: flex-start; background: #fff; color: var(--text-dark);
+      border: 1px solid #e2e8f0; border-bottom-left-radius: 4px;
+    }
+    .msg.user {
+      align-self: flex-end; background: var(--emerald-main); color: #fff;
+      border-bottom-right-radius: 4px;
+    }
+    .msg-law-tag {
+      display: inline-block; background: #ecfdf5; color: var(--emerald-main);
+      font-size: 0.74rem; font-weight: 800; padding: 2px 8px; border-radius: 4px; margin-bottom: 6px;
+    }
+
+    .quick-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+    .chip-btn {
+      background: #fff; border: 1px solid var(--emerald-main); color: var(--forest-deep);
+      font-size: 0.8rem; font-weight: 700; padding: 7px 11px; border-radius: 20px;
+      cursor: pointer; transition: 0.2s; text-align: left;
+    }
+    .chip-btn:hover { background: var(--emerald-main); color: #fff; }
+    .chip-btn.urgent { background: #fef2f2; border-color: #dc2626; color: #b91c1c; }
+    .chip-btn.urgent:hover { background: #dc2626; color: #fff; }
+
+    .mini-form {
+      background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 10px;
+      padding: 12px; margin-top: 8px; display: flex; flex-direction: column; gap: 8px;
+    }
+    .mini-form input[type="text"], .mini-form input[type="tel"], .mini-form textarea {
+      width: 100%; padding: 8px 10px; border: 1px solid #cbd5e1; border-radius: 6px;
+      font-family: inherit; font-size: 0.84rem;
+    }
+    .mini-privacy {
+      display: flex; align-items: center; gap: 6px; font-size: 0.78rem; font-weight: 700; color: var(--forest-deep);
+    }
+    .mini-form button {
+      background: var(--forest-deep); color: #fff; font-weight: 800; border: none;
+      padding: 10px; border-radius: 6px; font-size: 0.85rem; cursor: pointer;
+    }
+
+    .chat-footer {
+      padding: 10px 12px 6px; background: #fff; border-top: 1px solid #e2e8f0;
+      display: flex; gap: 8px;
+    }
+    .chat-footer input {
+      flex: 1; padding: 10px 12px; border: 1px solid #cbd5e1; border-radius: 20px;
+      font-family: inherit; font-size: 0.88rem; outline: none;
+    }
+    .chat-footer button {
+      background: var(--emerald-main); color: #fff; border: none; border-radius: 20px;
+      padding: 0 16px; font-weight: 800; font-size: 0.86rem; cursor: pointer;
+    }
+
+    .chat-disclaimer {
+      background: #f8fafc; color: #64748b; font-size: 0.72rem; line-height: 1.4;
+      padding: 7px 14px 10px; text-align: center; border-top: 1px dashed #e2e8f0;
+    }
+
+    /* 스마트폰 하단 고정 상담 바 */
+    .mobile-bottom-bar {
+      display: none; position: fixed; bottom: 0; left: 0; width: 100%;
+      background: var(--forest-deep); z-index: 1500; border-top: 1px solid rgba(255,255,255,0.15);
+    }
+    .mobile-bottom-bar a, .mobile-bottom-bar button {
+      flex: 1; text-align: center; padding: 14px 4px; font-weight: 800; font-size: 0.84rem;
+      color: #fff; border: none; background: transparent; cursor: pointer; font-family: inherit;
+    }
+    .mobile-bottom-bar a.call-btn { background: var(--emerald-main); }
+    .mobile-bottom-bar a.kakao-btn { background: var(--kakao-yellow); color: var(--kakao-brown); }
+    .mobile-bottom-bar button.ai-btn { background: var(--forest-card); }
+
+    /* 푸터 (보험업법 준수 안내 포함) */
+    footer { background: #071913; color: #94a3b8; padding: 52px 20px 95px; font-size: 0.86rem; border-top: 2px solid var(--emerald-main); }
+    .footer-inner { max-width: 1180px; margin: 0 auto; display: flex; flex-direction: column; gap: 8px; }
+    .footer-title { color: #fff; font-weight: 800; font-size: 1.15rem; margin-bottom: 4px; }
+    .footer-compliance {
+      margin-top: 14px; padding: 14px 16px; background: rgba(255,255,255,0.04);
+      border-radius: 8px; font-size: 0.79rem; color: #94a3b8; line-height: 1.6;
+    }
+    .footer-links { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 8px; }
+    .footer-links button, .footer-links a {
+      background: none; border: none; color: #a7f3d0; font-size: 0.84rem; cursor: pointer; text-decoration: underline; font-family: inherit;
+    }
+
+    @media (max-width: 980px) {
+      nav ul { display: none; }
+      .mobile-menu-btn { display: block; }
+      .bento-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 860px) {
+      .hero-grid, .yt-grid { grid-template-columns: 1fr; }
+      .hero { text-align: center; padding-top: 105px; }
+      .quick-contact, .btn-group { justify-content: center; }
+      .circle-frame { width: 205px; height: 205px; }
+      .hero h1 { font-size: 1.85rem; }
+      .bento-grid { grid-template-columns: 1fr; }
+      .slide-stage { min-height: 280px; }
+      .mobile-bottom-bar { display: flex; }
+      .ai-launcher { bottom: 64px; right: 14px; padding: 6px 14px 6px 8px; }
+      .chat-window { bottom: 126px; right: 14px; height: 520px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="nav-container">
+      <a href="#" class="logo">박씨네 보험톡 <span class="logo-tag">올바른 보험케어</span></a>
+      <nav>
+        <ul>
+          <li><a href="#guides">제도변경·분쟁사례</a></li>
+          <li><a href="#youtube">유튜브 방송</a></li>
+          <li><a href="#weekly">주간 카드뉴스</a></li>
+          <li><a href="#insurers">27개 보험사 콜센터</a></li>
+          <li><a href="#faq">자주묻는질문</a></li>
+          <li><a href="#contact">보장분석·청구대행</a></li>
+        </ul>
+      </nav>
+      <button class="mobile-menu-btn" onclick="toggleMobileMenu()" aria-label="메뉴 열기">☰</button>
+    </div>
+    <div class="mobile-dropdown" id="mobileDropdown">
+      <a href="#guides" onclick="toggleMobileMenu()">📚 최신 보험 제도 변경 & 보상 분쟁 사례</a>
+      <a href="#youtube" onclick="toggleMobileMenu()">▶️ 유튜브 '박씨네 보험톡' 라디오 & 영상</a>
+      <a href="#weekly" onclick="toggleMobileMenu()">📰 매주 발행 보험 상식 카드뉴스 뷰어</a>
+      <a href="#insurers" onclick="toggleMobileMenu()">☎️ 27개 손해·생명보험사 고객센터 원클릭</a>
+      <a href="#faq" onclick="toggleMobileMenu()">❓ 자주 묻는 약관·청구 질문 (FAQ)</a>
+      <a href="#contact" onclick="toggleMobileMenu()">📝 보험금 청구 대행 & 보장 분석 신청</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-grid">
+      <div>
+        <div class="hero-badge">보험·금융 판매전문 (주)인슈코아 나래지사 · 올바른 보험케어</div>
+        <h1>보험을 팔지 않습니다.<br><span>내 보험 약관을 읽고 지키는 법</span>을 알려드립니다</h1>
+        <p class="hero-desc">어려운 보험 용어와 매년 바뀌는 제도 변경, 억울하게 거절당하는 보험금 분쟁 사례까지 누구나 알기 쉽게 풀어드리는 교육·정보 중심 보험 지식 포털입니다.</p>
+        
+        <div class="slogan-banner">
+          “보험사보다 먼저, 저에게 연락 주세요 — 보험금 청구 · 보장 분석 · 계약 관리까지 전부 대행해 드립니다.”
+        </div>
+
+        <div class="quick-contact">
+          <span>📞 직통: <strong>010-2062-4600</strong></span>
+          <span>☎️ 사무실: <strong>053-654-5484</strong></span>
+          <span>📠 팩스: <strong>0508-918-4600</strong></span>
+          <span>✉️ <strong>pmsung@naver.com</strong></span>
+        </div>
+
+        <div class="btn-group">
+          <a href="#guides" class="btn-primary">📚 최신 제도변경·분쟁사례 보기</a>
+          <a href="https://open.kakao.com/o/sWvsGSXi" target="_blank" class="btn-kakao">💬 카카오톡 1:1 약관·청구 문의</a>
+          <button type="button" onclick="toggleChat(true)" class="btn-outline">🤖 AI 약관·분쟁 상담실</button>
+        </div>
+      </div>
+
+      <div class="profile-card">
+        <div class="circle-frame">
+          <img src="profile.png" alt="올바른 보험케어 박문성 분석팀장" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+          <div class="profile-fallback" style="display:none;">
+            (주)인슈코아 나래지사<br><span style="color:#0f766e;">올바른 보험케어</span><br>분석팀장 박문성
+          </div>
+        </div>
+        <div class="profile-org">(주)인슈코아 나래지사 · 올바른 보험케어</div>
+        <div class="profile-name">박 문 성 <span style="font-size:1rem; font-weight:500; color:#a7f3d0;">분석팀장</span></div>
+        <div class="profile-role">유튜브 ‘박씨네 보험톡’ 진행자 · 보상·약관 컨설턴트</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 핵심 가치 벤토 그리드 -->
+  <div class="bento-bar">
+    <div class="bento-grid">
+      <div class="bento-item">
+        <div class="bento-label">NO HARD SELLING</div>
+        <div class="bento-value">상품 권유 없는 순수 정보 포털</div>
+        <div class="bento-sub">약관 해석·제도 변경·숨은 보험금 찾기 교육 우선</div>
+      </div>
+      <div class="bento-item">
+        <div class="bento-label">CLAIM & DISPUTE</div>
+        <div class="bento-value">보험금 청구·분쟁 방어 대행</div>
+        <div class="bento-sub">지급 거절·삭감 사유 분석 및 필수 증빙서류 가이드</div>
+      </div>
+      <div class="bento-item">
+        <div class="bento-label">27 INSURANCE PARTNERS</div>
+        <div class="bento-value">27개 손해·생명보험사 통합 비교</div>
+        <div class="bento-sub">특정 회사 편향 없는 객관적 내 보험 증권 팩트체크</div>
+      </div>
+      <div class="bento-item">
+        <div class="bento-label">YOUTUBE & LIVE RADIO</div>
+        <div class="bento-value">부부 보험수다 · 사연 라디오</div>
+        <div class="bento-sub">매주 실전 보상 사례와 생활 속 보험 상식 방송</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 1. 최신 보험 제도 변경 & 보상 분쟁 사례 4대 핵심 리포트 -->
+  <section id="guides" class="guide-sec">
+    <div class="container">
+      <div class="section-title">
+        <span>POLICY UPDATES & CLAIM DISPUTE CASES</span>
+        <h2>꼭 알아야 할 최신 보험 제도 변경 & 보상 분쟁 사례</h2>
+        <p>몰라서 못 받고, 서류 한 장 때문에 거절당하는 대표적인 핵심 사례를 정리했습니다.</p>
+      </div>
+      <div class="grid-4">
+        <div class="card">
+          <div class="card-tag">CASE 01 / HEALTH & INDEMNITY</div>
+          <h3>본인부담상한제 환급 vs 실손보험</h3>
+          <p>건강보험공단에서 본인부담상한액 초과금을 돌려받았을 때, 실손보험사가 이를 이유로 보험금을 삭감·부지급하는 분쟁의 핵심 기준입니다.</p>
+          <ul class="card-list">
+            <li>1세대 구실손 vs 표준화 이후 실손 약관 차이</li>
+            <li>소득분위별 상한액 기준 및 대응 체크포인트</li>
+          </ul>
+          <button class="btn-detail" onclick="openModal('copay')">분쟁 대응 핵심 가이드 보기 +</button>
+        </div>
+
+        <div class="card">
+          <div class="card-tag">CASE 02 / CAREGIVER CLAIM</div>
+          <h3>간병인 사용일당 청구 거절 함정</h3>
+          <p>입원 후 간병인을 썼는데도 사업자등록 미비, 서류 누락 등으로 일당 청구가 거절되는 실제 분쟁 사례와 사전 예방법입니다.</p>
+          <ul class="card-list">
+            <li>인정되는 간병인 업체·사업자 요건 확인</li>
+            <li>간병일지·계좌이체 증빙 필수 제출 서류</li>
+          </ul>
+          <button class="btn-detail" onclick="openModal('caregiver')">청구 필수 체크리스트 보기 +</button>
+        </div>
+
+        <div class="card">
+          <div class="card-tag">CASE 03 / SYSTEM CHANGE</div>
+          <h3>실손의료비 전환 & 무사고 할인 제도</h3>
+          <p>매년 오르는 갱신 보험료 폭탄을 줄이기 위한 무사고 계약전환 제도와 기존 실손 유지 vs 세대 전환 유리·불리 판단 기준입니다.</p>
+          <ul class="card-list">
+            <li>직전 2년 무사고 시 보험료 할인·전환 조건</li>
+            <li>비급여 이용량에 따른 자기부담금 비교</li>
+          </ul>
+          <button class="btn-detail" onclick="openModal('silson')">제도 변경 핵심 요약 보기 +</button>
+        </div>
+
+        <div class="card">
+          <div class="card-tag">CASE 04 / PROPERTY & LIABILITY</div>
+          <h3>건물·상가 화재보험 & 배상책임</h3>
+          <p>상가·공장·주택 소유자가 업종 변경 통지의무를 놓쳐 화재 시 비례보상(감액)을 당하거나 누수·시설 배상 분쟁을 겪는 사례입니다.</p>
+          <ul class="card-list">
+            <li>상법상 통지의무 및 재조달가액 가입 원칙</li>
+            <li>일상생활배상책임(일배책) 누수 보상 범위</li>
+          </ul>
+          <button class="btn-detail" onclick="openModal('fire')">재산·배상 약관 핵심 보기 +</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. 유튜브 '박씨네 보험톡' 미디어 라운지 -->
+  <section id="youtube" class="youtube-sec">
+    <div class="container">
+      <div class="section-title">
+        <span>OFFICIAL YOUTUBE & RADIO LOUNGE</span>
+        <h2>박씨네 보험톡 · 실전 약관 해설 & 사연 라디오</h2>
+        <p>부부 보험수다, 기막힌 보험사연 라디오, 생활 속 보험 속담까지 영상으로 쉽고 재미있게 만나보세요.</p>
+      </div>
+
+      <div class="yt-grid">
+        <div class="video-frame" id="ytStage">
+          <a href="https://www.youtube.com/@박씨네보험톡" target="_blank" class="yt-channel-banner">
+            <div class="yt-play-circle">▶</div>
+            <h4>박씨네 보험톡 공식 유튜브 채널</h4>
+            <span>www.youtube.com/@박씨네보험톡 · 방송 및 쇼츠 보러가기</span>
+          </a>
+        </div>
+        <div class="yt-info">
+          <span class="yt-badge">▶ YOUTUBE · PARK'S INSURANCE TALK</span>
+          <h3>내 돈을 지키는 숨은 보험금 찾기와 실제 보상 분쟁 이야기</h3>
+          <p>어려운 보험 약관을 톡톡이·톡순이, 이용복·박순희 부부의 유쾌한 대화와 실제 청취자 분쟁 사례로 알기 쉽게 풀어드립니다. 구독 후 궁금한 주제를 댓글이나 폼으로 남겨주세요.</p>
+          <div class="series-tags">
+            <span class="series-tag">#부부보험수다</span>
+            <span class="series-tag">#기막힌보험사연라디오</span>
+            <span class="series-tag">#보험속담80선</span>
+            <span class="series-tag">#숨은환급금찾기</span>
+          </div>
+          <a id="ytChannelBtn" href="https://www.youtube.com/@박씨네보험톡" target="_blank" class="btn-youtube">
+            ▶ 박씨네 보험톡 유튜브 채널 바로가기
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. 매주 발행 보험 상식 카드뉴스 슬라이드 뷰어 -->
+  <section id="weekly" class="weekly-sec">
+    <div class="container">
+      <div class="section-title">
+        <span>WEEKLY INSURANCE CARD NEWS</span>
+        <h2>한눈에 보는 주간 보험 상식 & 제도 변경 카드뉴스</h2>
+        <p>상단 호수를 선택하시면 최신 보험 뉴스 요약과 핵심 약관 해설 슬라이드를 바로 넘겨보실 수 있습니다.</p>
+      </div>
+
+      <div class="viewer-wrapper">
+        <div class="viewer-header">
+          <div class="issue-select-wrap">
+            <label for="issueSelect">📰 호수 선택:</label>
+            <select id="issueSelect" class="issue-select" onchange="changeIssue(this.value)"></select>
+          </div>
+          <span class="page-indicator" id="pageIndicator">1 / 10 페이지 (표지)</span>
+        </div>
+
+        <div class="slide-stage">
+          <img id="weeklyImg" src="" alt="박씨네 보험톡 주간 카드뉴스"
+               onerror="this.style.display='none'; document.getElementById('imgFallback').style.display='block';">
+          <div id="imgFallback" class="slide-placeholder" style="display:none;">
+            📂 <strong>이번 주 보험 상식 카드뉴스 업로드 대기 중</strong><br><br>
+            GitHub <code>weekly/<span id="missingFolder"></span></code> 폴더에<br>
+            <code>1.png ~ 10.png</code> 슬라이드를 올리시면 이곳에 자동 표시됩니다.
+          </div>
+
+          <button class="nav-arrow prev" onclick="changePage(-1)" aria-label="이전 페이지">‹</button>
+          <button class="nav-arrow next" onclick="changePage(1)" aria-label="다음 페이지">›</button>
+        </div>
+
+        <div class="viewer-controls">
+          <div class="thumb-dots" id="dotContainer"></div>
+        </div>
+
+        <button class="btn-share" onclick="copySiteLink()">🔗 가족·지인에게 보험 상식 카드뉴스 링크 복사해서 공유하기</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. 명함 뒷면 구현: 27개 손해·생명보험사 고객센터 원클릭 안내판 -->
+  <section id="insurers" class="insurers-sec">
+    <div class="container">
+      <div class="section-title">
+        <span>27 INSURANCE COMPANIES DIRECTORY</span>
+        <h2>전 보험사 고객센터 원클릭 안내판</h2>
+        <p>스마트폰에서 보험사 이름을 터치하시면 해당 고객센터로 바로 연결됩니다.</p>
+      </div>
+
+      <div class="insurer-tip">
+        💡 <strong>잠깐! 보험사 콜센터에 사고 접수·청구 전화를 걸기 전에 먼저 연락 주세요!</strong><br>
+        사고 경위나 진단명 표현 하나에 따라 지급 여부가 달라질 수 있습니다. <strong>박문성 분석팀장(010-2062-4600)</strong>에게 먼저 문의하시면 유리한 청구 절차와 서류를 안내해 드립니다.
+      </div>
+
+      <div class="insurer-cat-title">손해보험사 (12개사 · 터치 시 바로 전화연결)</div>
+      <div class="insurer-grid">
+        <a href="tel:1588-5114" class="insurer-card"><span class="insurer-name">삼성화재</span><span class="insurer-tel">1588-5114</span></a>
+        <a href="tel:1588-5656" class="insurer-card"><span class="insurer-name">현대해상</span><span class="insurer-tel">1588-5656</span></a>
+        <a href="tel:1544-0114" class="insurer-card"><span class="insurer-name">KB손해보험</span><span class="insurer-tel">1544-0114</span></a>
+        <a href="tel:1566-7711" class="insurer-card"><span class="insurer-name">메리츠화재</span><span class="insurer-tel">1566-7711</span></a>
+        <a href="tel:1566-8000" class="insurer-card"><span class="insurer-name">한화손해보험</span><span class="insurer-tel">1566-8000</span></a>
+        <a href="tel:1588-0100" class="insurer-card"><span class="insurer-name">DB손해보험</span><span class="insurer-tel">1588-0100</span></a>
+        <a href="tel:1588-5959" class="insurer-card"><span class="insurer-name">MG손해보험</span><span class="insurer-tel">1588-5959</span></a>
+        <a href="tel:1644-9000" class="insurer-card"><span class="insurer-name">NH농협손해보험</span><span class="insurer-tel">1644-9000</span></a>
+        <a href="tel:1688-1688" class="insurer-card"><span class="insurer-name">흥국화재</span><span class="insurer-tel">1688-1688</span></a>
+        <a href="tel:1588-3344" class="insurer-card"><span class="insurer-name">롯데손해보험</span><span class="insurer-tel">1588-3344</span></a>
+        <a href="tel:1566-3000" class="insurer-card"><span class="insurer-name">하나손해보험</span><span class="insurer-tel">1566-3000</span></a>
+        <a href="tel:1566-5800" class="insurer-card"><span class="insurer-name">라이나손보</span><span class="insurer-tel">1566-5800</span></a>
+      </div>
+
+      <div class="insurer-cat-title">생명보험사 (17개사 · 터치 시 바로 전화연결)</div>
+      <div class="insurer-grid">
+        <a href="tel:1588-3114" class="insurer-card"><span class="insurer-name">삼성생명</span><span class="insurer-tel">1588-3114</span></a>
+        <a href="tel:1588-6363" class="insurer-card"><span class="insurer-name">한화생명</span><span class="insurer-tel">1588-6363</span></a>
+        <a href="tel:1588-1001" class="insurer-card"><span class="insurer-name">교보생명</span><span class="insurer-tel">1588-1001</span></a>
+        <a href="tel:1577-1004" class="insurer-card"><span class="insurer-name">동양생명</span><span class="insurer-tel">1577-1004</span></a>
+        <a href="tel:1588-3131" class="insurer-card"><span class="insurer-name">DB생명</span><span class="insurer-tel">1588-3131</span></a>
+        <a href="tel:1588-0220" class="insurer-card"><span class="insurer-name">미래에셋생명</span><span class="insurer-tel">1588-0220</span></a>
+        <a href="tel:1588-4770" class="insurer-card"><span class="insurer-name">iM라이프</span><span class="insurer-tel">1588-4770</span></a>
+        <a href="tel:1588-6500" class="insurer-card"><span class="insurer-name">ABL생명</span><span class="insurer-tel">1588-6500</span></a>
+        <a href="tel:1544-4000" class="insurer-card"><span class="insurer-name">NH농협생명</span><span class="insurer-tel">1544-4000</span></a>
+        <a href="tel:1588-9600" class="insurer-card"><span class="insurer-name">메트라이프</span><span class="insurer-tel">1588-9600</span></a>
+        <a href="tel:1577-4117" class="insurer-card"><span class="insurer-name">IBK연금보험</span><span class="insurer-tel">1577-4117</span></a>
+        <a href="tel:1588-0058" class="insurer-card"><span class="insurer-name">라이나생명</span><span class="insurer-tel">1588-0058</span></a>
+        <a href="tel:1588-5580" class="insurer-card"><span class="insurer-name">신한라이프</span><span class="insurer-tel">1588-5580</span></a>
+        <a href="tel:1588-4040" class="insurer-card"><span class="insurer-name">KDB생명</span><span class="insurer-tel">1588-4040</span></a>
+        <a href="tel:1588-2288" class="insurer-card"><span class="insurer-name">흥국생명</span><span class="insurer-tel">1588-2288</span></a>
+        <a href="tel:1588-9898" class="insurer-card"><span class="insurer-name">AIA생명</span><span class="insurer-tel">1588-9898</span></a>
+        <a href="tel:1588-3374" class="insurer-card"><span class="insurer-name">KB라이프</span><span class="insurer-tel">1588-3374</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. 자주 묻는 질문(FAQ) 아코디언 -->
+  <section id="faq" class="faq-sec">
+    <div class="container">
+      <div class="section-title">
+        <span>FREQUENTLY ASKED QUESTIONS</span>
+        <h2>시청자·의뢰인이 가장 많이 묻는 보험 상식 FAQ</h2>
+        <p>가입 권유 없이 객관적인 약관과 표준 기준에 따라 친절히 답변해 드립니다.</p>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item open">
+          <button type="button" class="faq-q" onclick="toggleFaq(this)">
+            <span>Q1. 정말로 새로운 보험 가입을 권유하지 않고 기존 보험 점검만 받을 수 있나요?</span>
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-a">
+            네, 그렇습니다. <strong>올바른 보험케어</strong>는 기존에 잘 유지하고 계신 좋은 보험을 해지시키고 새 상품으로 갈아타게 하는 영업을 절대 하지 않습니다. 현재 가입된 증권의 보장 공백, 불필요한 중복 특약, 갱신 주기, 그리고 과거에 놓친 미청구 보험금이 있는지를 객관적으로 분석해 드립니다.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-q" onclick="toggleFaq(this)">
+            <span>Q2. 보험사에서 "약관상 지급 대상이 아니다"라고 안내받았는데 다시 확인해 볼 수 있나요?</span>
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-a">
+            네, 가능합니다. 가입 시점(연도)별 표준약관 개정 내용, 진단서상 질병분류코드(KCD), 수술방법 코드에 따라 보험사의 1차 심사 결과가 달라지는 경우가 많습니다. 진단서·입퇴원확인서와 가입 증권을 공유해 주시면 약관상 재검토 여지를 꼼꼼히 짚어드립니다.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-q" onclick="toggleFaq(this)">
+            <span>Q3. 여러 보험사에 흩어져 있는 보험금 청구와 계약 관리를 한 번에 맡길 수 있나요?</span>
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-a">
+            네, 가능합니다. 병원 치료 후 발급받으신 서류(진료비 영수증, 세부내역서, 진단서 등)를 카카오톡이나 이메일로 보내주시면 가입하신 모든 손해·생명보험사에 일괄 청구를 대행해 드리며, 주소·직업 변경 통지 등 계약 사후 관리까지 책임지고 도와드립니다.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-q" onclick="toggleFaq(this)">
+            <span>Q4. 유튜브 '박씨네 보험톡'에서 다뤄주었으면 하는 보험 분쟁 사연이나 궁금한 주제를 제보할 수 있나요?</span>
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-a">
+            언제든 환영합니다! 아래 신청 폼에서 <strong>[유튜브 '박씨네 보험톡' 사연 제보 및 주제 신청]</strong>을 선택해 내용을 남겨주시면, 개인정보를 철저히 비식별 처리한 뒤 방송과 카드뉴스로 알기 쉽게 해설해 드리겠습니다.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. 무료 보장분석 · 청구대행 · 사연 제보 폼 -->
+  <section id="contact" class="contact-sec">
+    <div class="container">
+      <div class="section-title">
+        <span>FREE ANALYSIS & CLAIM SUPPORT</span>
+        <h2>보장 분석 · 보험금 청구 대행 · 궁금한 약관 질문 신청</h2>
+        <p>상품 권유 없이 친절하게 설명해 드립니다. 내용을 남겨주시면 박문성 분석팀장이 직접 검토 후 연락드립니다.</p>
+      </div>
+      <div class="form-box">
+        <form action="https://formspree.io/f/xljblkwg" method="POST" onsubmit="return validateMainForm(this)">
+          <div class="form-group">
+            <label>신청 분야 선택</label>
+            <select name="신청분야">
+              <option>내 보험 증권 객관적 보장 분석 (리모델링 강요 없음)</option>
+              <option>병원비·수술비·간병인 등 보험금 청구 대행 요청</option>
+              <option>보험금 부지급·삭감·분쟁 사례 약관 검토 문의</option>
+              <option>건물·상가·공장 화재보험 및 배상책임 약관 점검</option>
+              <option>유튜브 '박씨네 보험톡' 사연 제보 및 궁금한 주제 신청</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>성함 (사연 제보 시 닉네임 가능)</label>
+            <input type="text" name="성함" placeholder="예: 홍길동" required />
+          </div>
+          <div class="form-group">
+            <label>연락처</label>
+            <input type="tel" name="연락처" placeholder="예: 010-0000-0000" required />
+          </div>
+          <div class="form-group">
+            <label>궁금하신 내용 또는 현재 상황 (가입 보험사, 진단명, 분쟁 내용 등)</label>
+            <textarea name="문의내용" rows="4" placeholder="예: 2015년에 가입한 실손보험을 4세대로 전환하는 게 유리할지 궁금합니다 / 간병인 일당 청구 서류를 확인받고 싶습니다 등" required></textarea>
+          </div>
+
+          <!-- 개인정보 수집·이용 필수 동의 체크박스 -->
+          <div class="privacy-box">
+            <label class="privacy-check">
+              <input type="checkbox" id="mainPrivacyAgree" name="개인정보수집이용동의" value="동의함" required />
+              <span>[필수] 개인정보 수집 및 이용에 동의합니다.</span>
+            </label>
+            <button type="button" class="privacy-view-btn" onclick="openPrivacyModal()">내용보기</button>
+          </div>
+
+          <button type="submit" class="btn-submit">박문성 분석팀장에게 무료 상담 및 분석 신청하기</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-title">박씨네 보험톡 · 올바른 보험케어 ((주)인슈코아 나래지사)</div>
+      <div>분석팀장: 박문성 | 소재지: 대구광역시 달서구 달구벌대로 1834 성안광장 1306호</div>
+      <div>직통: 010-2062-4600 | 사무실: 053-654-5484 | 팩스: 0508-918-4600 | 이메일: pmsung@naver.com</div>
+      <div class="footer-links">
+        <button type="button" onclick="openPrivacyModal()">개인정보처리방침</button>
+        <a href="https://open.kakao.com/o/sWvsGSXi" target="_blank">카카오톡 1:1 약관·청구 문의</a>
+        <a href="https://www.youtube.com/@박씨네보험톡" target="_blank">유튜브 박씨네 보험톡</a>
+      </div>
+      <div class="footer-compliance">
+        ※ 본 웹사이트는 보험 상품 판매 권유가 아닌 일반 소비자를 위한 보험 약관 해석, 제도 변경 안내 및 보상 상식 교육 목적으로 운영됩니다.<br>
+        ※ 개별 보험 계약의 보장 내용과 지급 여부는 가입 시점의 해당 보험사 약관 및 상품설명서에 따르며, 상세 분석이 필요하신 경우 정식 상담을 통해 안내받으시기 바랍니다.
+      </div>
+      <div style="margin-top: 8px; font-size: 0.8rem; color: #64748b;">© 2026 Park's Insurance Talk & Correct Insurance Care. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <!-- 상세 안내 모달(팝업) -->
+  <div class="modal-overlay" id="detailModal" onclick="if(event.target===this) closeModal()">
+    <div class="modal-card">
+      <button class="modal-close" onclick="closeModal()">✕</button>
+      <h3 id="modalTitle">상세 약관 및 분쟁 가이드</h3>
+      <p id="modalDesc"></p>
+      <ul class="modal-list" id="modalList"></ul>
+      <a href="#contact" onclick="closeModal()" class="btn-primary" style="width:100%; justify-content:center;">내 증권 기준으로 무료 확인 신청하기</a>
+    </div>
+  </div>
+
+  <!-- 개인정보 수집·이용 안내 모달 -->
+  <div class="modal-overlay" id="privacyModal" onclick="if(event.target===this) closePrivacyModal()">
+    <div class="modal-card">
+      <button class="modal-close" onclick="closePrivacyModal()">✕</button>
+      <h3>개인정보 수집·이용 및 처리방침 안내</h3>
+      <p>올바른 보험케어(박씨네 보험톡)는 「개인정보 보호법」에 따라 약관 설명, 보장 분석 및 보험금 청구 대행 안내를 위해 아래와 같이 최소한의 개인정보를 수집·이용합니다.</p>
+      <ul class="modal-list">
+        <li><strong>수집 항목:</strong> 성함(또는 닉네임), 연락처, 신청 분야, 문의 및 상담 내용</li>
+        <li><strong>수집 및 이용 목적:</strong> 보험 약관·제도 안내, 무료 보장 분석 회신, 보험금 청구 절차 안내 및 방송 사연 검토</li>
+        <li><strong>보유 및 이용 기간:</strong> 상담 완료 후 1년 보관 후 지체 없이 파기 (관계 법령에 보존 의무가 있는 경우 해당 기간 보관)</li>
+        <li><strong>동의 거부 권리:</strong> 귀하는 개인정보 수집·이용에 대한 동의를 거부할 권리가 있으나, 미동의 시 온라인 상담 접수가 제한됩니다.</li>
+      </ul>
+      <button type="button" onclick="closePrivacyModal()" class="btn-primary" style="width:100%; justify-content:center;">확인 및 닫기</button>
+    </div>
+  </div>
+
+  <!-- 박씨네 보험톡 AI 약관·분쟁 상담 챗봇 위젯 -->
+  <button class="ai-launcher" onclick="toggleChat()" aria-label="AI 약관 상담 열기">
+    <div class="ai-avatar-badge">
+      <svg viewBox="0 0 100 100" width="42" height="42">
+        <rect width="100" height="100" fill="#ecfdf5"/>
+        <path d="M18 98 C18 72, 82 72, 82 98 Z" fill="#0b251c"/>
+        <polygon points="43,72 57,72 50,94" fill="#ffffff"/>
+        <polygon points="48,74 52,74 53.5,91 50,96 46.5,91" fill="#0f766e"/>
+        <rect x="47.5" y="81" width="5" height="1.8" rx="0.8" fill="#fbbf24"/>
+        <rect x="44" y="62" width="12" height="12" rx="4" fill="#f8d5b8"/>
+        <path d="M33 41 C33 25, 67 25, 67 41 C67 57, 59 65, 50 65 C41 65, 33 57, 33 41 Z" fill="#fde2cc"/>
+        <path d="M32 41 C31 23, 69 22, 68 41 C65 32, 54 29, 43 32 C38 33, 34 36, 32 41 Z" fill="#1e293b"/>
+        <rect x="36.5" y="40" width="11.5" height="7.5" rx="2" fill="rgba(255,255,255,0.45)" stroke="#0b251c" stroke-width="1.8"/>
+        <rect x="52" y="40" width="11.5" height="7.5" rx="2" fill="rgba(255,255,255,0.45)" stroke="#0b251c" stroke-width="1.8"/>
+        <line x1="48" y1="43.5" x2="52" y2="43.5" stroke="#0b251c" stroke-width="1.8"/>
+        <circle cx="42.2" cy="43.8" r="1.6" fill="#0b251c"/>
+        <circle cx="57.8" cy="43.8" r="1.6" fill="#0b251c"/>
+        <path d="M45 55 Q50 58.5 55 55" fill="none" stroke="#b45309" stroke-width="1.8" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <div class="ai-launcher-text">
+      <strong>보험톡 AI 안내실</strong>
+      <span>약관해석·분쟁·청구대행</span>
+    </div>
+  </button>
+
+  <div class="chat-window" id="chatWindow">
+    <div class="chat-header">
+      <div class="chat-header-info">
+        <div class="chat-header-avatar">
+          <svg viewBox="0 0 100 100" width="38" height="38">
+            <rect width="100" height="100" fill="#ecfdf5"/>
+            <path d="M18 98 C18 72, 82 72, 82 98 Z" fill="#0b251c"/>
+            <polygon points="43,72 57,72 50,94" fill="#ffffff"/>
+            <polygon points="48,74 52,74 53.5,91 50,96 46.5,91" fill="#0f766e"/>
+            <rect x="47.5" y="81" width="5" height="1.8" rx="0.8" fill="#fbbf24"/>
+            <rect x="44" y="62" width="12" height="12" rx="4" fill="#f8d5b8"/>
+            <path d="M33 41 C33 25, 67 25, 67 41 C67 57, 59 65, 50 65 C41 65, 33 57, 33 41 Z" fill="#fde2cc"/>
+            <path d="M32 41 C31 23, 69 22, 68 41 C65 32, 54 29, 43 32 C38 33, 34 36, 32 41 Z" fill="#1e293b"/>
+            <rect x="36.5" y="40" width="11.5" height="7.5" rx="2" fill="rgba(255,255,255,0.45)" stroke="#0b251c" stroke-width="1.8"/>
+            <rect x="52" y="40" width="11.5" height="7.5" rx="2" fill="rgba(255,255,255,0.45)" stroke="#0b251c" stroke-width="1.8"/>
+            <line x1="48" y1="43.5" x2="52" y2="43.5" stroke="#0b251c" stroke-width="1.8"/>
+            <circle cx="42.2" cy="43.8" r="1.6" fill="#0b251c"/>
+            <circle cx="57.8" cy="43.8" r="1.6" fill="#0b251c"/>
+            <path d="M45 55 Q50 58.5 55 55" fill="none" stroke="#b45309" stroke-width="1.8" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="chat-header-title">
+          <strong>박씨네 보험톡 AI 약관 안내실</strong>
+          <span>표준약관·상법(보험편) 기준 친절 해설</span>
+        </div>
+      </div>
+      <button class="chat-close-btn" onclick="toggleChat(false)" aria-label="창 닫기">✕</button>
+    </div>
+
+    <div class="chat-body" id="chatBody"></div>
+
+    <div class="chat-footer">
+      <input type="text" id="chatInput" placeholder="궁금한 보험 용어나 분쟁 키워드 입력..." onkeypress="if(event.key==='Enter') sendUserText()" />
+      <button type="button" onclick="sendUserText()">전송</button>
+    </div>
+
+    <div class="chat-disclaimer">
+      ⚠️ <strong>안내 유의사항:</strong> 본 AI 안내는 일반 약관 상식 이해를 돕기 위한 <strong>참고용 정보</strong>이며, 개별 증권의 정확한 지급 판단과 청구 대행은 박문성 분석팀장과 직접 상담하시기 바랍니다.
+    </div>
+  </div>
+
+  <!-- 스마트폰 하단 고정 바 -->
+  <div class="mobile-bottom-bar">
+    <a href="tel:010-2062-4600" class="call-btn">📞 직통상담</a>
+    <a href="https://open.kakao.com/o/sWvsGSXi" target="_blank" class="kakao-btn">💬 카톡약관문의</a>
+    <button type="button" onclick="toggleChat(true)" class="ai-btn">🤖 AI안내실</button>
+  </div>
+
+  <script>
+    /* =====================================================================
+       ★ [1. 주차별 보험 상식 카드뉴스 아카이브 설정 구역]
+       ===================================================================== */
+    const weeklyIssues = [
+       { folder: '2026-11-4w', label: '2026년 11월 4주호 (최신 보험 상식 · 11P)' }
+       { folder: '2026-11-3w', label: '2026년 11월 3주호 (최신 보험 상식 · 11P)' }
+    ];
+
+    /* =====================================================================
+       ★ [2. 유튜브 '박씨네 보험톡' 영상 & 채널 설정 구역]
+       ===================================================================== */
+    const youtubeVideoId = ''; // 대표 영상 ID(watch?v=뒤의 코드) 입력 시 즉시 플레이어 전환
+    const youtubeChannelUrl = 'https://www.youtube.com/@박씨네보험톡';
+    const kakaoChatUrl = 'https://open.kakao.com/o/sWvsGSXi';
+
+    if (youtubeVideoId) {
+      document.getElementById('ytStage').innerHTML = `<iframe src="https://www.youtube.com/embed/${youtubeVideoId}" title="박씨네 보험톡 해설 영상" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+    }
+    document.getElementById('ytChannelBtn').href = youtubeChannelUrl;
+
+    function toggleMobileMenu() {
+      document.getElementById('mobileDropdown').classList.toggle('open');
+    }
+
+    function toggleFaq(btn) {
+      btn.parentElement.classList.toggle('open');
+    }
+
+    function validateMainForm(form) {
+      const chk = document.getElementById('mainPrivacyAgree');
+      if (!chk.checked) {
+        alert('[필수] 개인정보 수집 및 이용에 동의해 주셔야 접수가 가능합니다.');
+        chk.focus();
+        return false;
+      }
+      return true;
+    }
+    function openPrivacyModal() { document.getElementById('privacyModal').classList.add('open'); }
+    function closePrivacyModal() { document.getElementById('privacyModal').classList.remove('open'); }
+
+    /* 주간 카드뉴스 뷰어 엔진 */
+    const totalPages = 10;
+    let currentPage = 1;
+    let currentFolder = weeklyIssues[0].folder;
+    const imgExt = 'png';
+
+    const issueSelect = document.getElementById('issueSelect');
+    weeklyIssues.forEach((issue, idx) => {
+      const opt = document.createElement('option');
+      opt.value = issue.folder;
+      opt.textContent = issue.label;
+      if (idx === 0) opt.selected = true;
+      issueSelect.appendChild(opt);
+    });
+
+    const dotContainer = document.getElementById('dotContainer');
+    for (let i = 1; i <= totalPages; i++) {
+      const btn = document.createElement('button');
+      btn.className = 'dot-btn' + (i === 1 ? ' active' : '');
+      btn.textContent = i;
+      btn.onclick = () => goToPage(i);
+      dotContainer.appendChild(btn);
+    }
+
+    function changeIssue(folderName) {
+      currentFolder = folderName;
+      goToPage(1);
+    }
+
+    function goToPage(page) {
+      if (page < 1) page = totalPages;
+      if (page > totalPages) page = 1;
+      currentPage = page;
+
+      const img = document.getElementById('weeklyImg');
+      const fallback = document.getElementById('imgFallback');
+      document.getElementById('missingFolder').textContent = currentFolder;
+      img.style.display = 'block';
+      fallback.style.display = 'none';
+      img.src = `weekly/${currentFolder}/${currentPage}.${imgExt}`;
+
+      const label = currentPage === 1 ? `${currentPage} / ${totalPages} 페이지 (표지)` : `${currentPage} / ${totalPages} 페이지`;
+      document.getElementById('pageIndicator').textContent = label;
+
+      document.querySelectorAll('.dot-btn').forEach((b, idx) => {
+        b.classList.toggle('active', idx + 1 === currentPage);
+      });
+    }
+
+    function changePage(step) { goToPage(currentPage + step); }
+    goToPage(1);
+
+    function copySiteLink() {
+      navigator.clipboard.writeText(window.location.href).then(() => {
+        alert('박씨네 보험톡 홈페이지 링크가 복사되었습니다!\n가족이나 지인분께 카카오톡으로 공유해 보세요.');
+      });
+    }
+
+    /* 4대 분쟁·제도 변경 상세 팝업 데이터 */
+    const modalData = {
+      copay: {
+        title: '본인부담상한제 환급금 vs 실손보험 지급 분쟁 가이드',
+        desc: '국민건강보험공단에서 돌려받은 본인부담상한액 초과금과 관련해 실손보험사가 보험금을 삭감·부지급할 때 반드시 따져봐야 할 핵심 기준입니다.',
+        items: [
+          '2009년 10월 이전 가입(1세대 구실손)은 본인부담상한제 면책 조항이 없는 경우가 많아 대법원 판례상 지급 대상이 될 수 있습니다.',
+          '2009년 10월 이후 표준화 실손(2~4세대)은 약관상 공단 환급금 공제 조항이 명시되어 있으므로 가입 시점별 약관 원문 대조가 필수입니다.',
+          '병원 원무과에서 사후 환급 처리되는 경우와 공단에서 개인 계좌로 환급받는 경우의 정산 방식 차이를 확인해야 합니다.'
+        ]
+      },
+      caregiver: {
+        title: '간병인 사용일당 청구 거절 함정 & 필수 증빙 체크리스트',
+        desc: '간병인 특약에 가입해 두고도 청구 단계에서 서류 미비로 거절당하는 사례가 급증하고 있습니다. 퇴원 전 아래 4가지를 꼭 챙기세요.',
+        items: [
+          '반드시 간병인 알선·파견 업종으로 정식 사업자등록이 된 업체를 통해 이용해야 합니다 (개인 간 직거래·가족 간병 제외 조건 확인).',
+          '간병인 사용 확인서, 사업자등록증 사본, 카드매출전표 또는 현금영수증(계좌이체 내역 포함)이 모두 일치해야 합니다.',
+          '병원 내 간호·간병통합서비스 병동 이용 기간은 일반 간병인 사용일당과 중복 지급되지 않는 경우가 많으므로 구분해야 합니다.'
+        ]
+      },
+      silson: {
+        title: '실손의료비 세대 전환 & 무사고 계약전환 제도 핵심',
+        desc: '갱신 시점마다 오르는 기존 실손보험을 무작정 해지하거나 4세대로 전환하기 전, 본인의 병원 이용 패턴과 할인 혜택을 먼저 비교해야 합니다.',
+        items: [
+          '무사고 계약전환 제도: 직전 2년간 비급여 보험금 수령 이력이 없는 경우 별도 심사 없이 4세대 실손으로 전환 및 보험료 할인 혜택을 받을 수 있습니다.',
+          '다만 1~2세대 실손은 자기부담금이 0~10%로 매우 낮고 도수치료·비급여 주사료 한도가 넓어, 만성질환이나 비급여 치료가 잦다면 유지가 유리합니다.',
+          '4세대 전환 후 6개월 이내 보험금 수령 이력이 없다면 기존 계약으로 철회(원복)할 수 있는 안전장치도 활용해 보세요.'
+        ]
+      },
+      fire: {
+        title: '건물·상가·공장 화재보험 & 일상생활배상책임 핵심',
+        desc: '건물 소유주와 임차인 모두 상법상 통지의무와 배상책임 범위를 정확히 알아야 사고 시 보상 감액을 피할 수 있습니다.',
+        items: [
+          '상법 제652조(위험변경증가의 통지): 건물 내 임차인 업종이 변경(예: 사무실→음식점·창고)되면 즉시 보험사에 통지해야 화재 시 비례보상(감액)을 막습니다.',
+          '가입금액은 매매 시세가 아닌 실제 건물을 다시 짓는 비용인 [재조달가액] 기준으로 설정해야 전액 복구가 가능합니다.',
+          '아파트·주택 누수 사고 시 가족 일상생활배상책임(일배책) 특약을 활용하면 아랫집 수리비와 누수 탐지 비용까지 보상받을 수 있습니다.'
+        ]
+      }
+    };
+
+    function openModal(key) {
+      const data = modalData[key];
+      document.getElementById('modalTitle').textContent = data.title;
+      document.getElementById('modalDesc').textContent = data.desc;
+      const listEl = document.getElementById('modalList');
+      listEl.innerHTML = '';
+      data.items.forEach(text => {
+        const li = document.createElement('li');
+        li.textContent = text;
+        listEl.appendChild(li);
+      });
+      document.getElementById('detailModal').classList.add('open');
+    }
+
+    function closeModal() { document.getElementById('detailModal').classList.remove('open'); }
+
+    /* 박씨네 보험톡 AI 약관·분쟁 상담 챗봇 엔진 */
+    let chatInitialized = false;
+    const chatBody = document.getElementById('chatBody');
+
+    const scenarios = {
+      silson: {
+        userLabel: '🏥 실손보험·본인부담상한제',
+        lawTag: '실손의료비 표준약관 · 판례 기준',
+        reply: `<strong>[실손의료비 & 본인부담상한제 핵심 안내]</strong><br>
+        • <strong>세대별 차이:</strong> 2009년 10월 이전 구실손은 자기부담금이 적고 상한제 환급금 공제 조항이 없는 경우가 많으며, 이후 표준화 실손(2~4세대)은 공단 환급금을 제외하고 지급합니다.<br>
+        • <strong>무사고 전환:</strong> 직전 2년 무사고 시 4세대 전환 할인이 가능하나, 비급여 치료가 많다면 기존 계약 유지가 유리할 수 있습니다.`
+      },
+      caregiver: {
+        userLabel: '🛏️ 간병인 사용일당 청구 분쟁',
+        lawTag: '상법(보험편) · 간병인 특약 기준',
+        reply: `<strong>[간병인 사용일당 청구 핵심 체크]</strong><br>
+        • <strong>사업자 요건:</strong> 정식 사업자등록이 된 간병업체 이용 내역과 <strong>간병인 사용확인서, 영수증·계좌이체 증빙</strong>이 일치해야 거절되지 않습니다.<br>
+        • 간호·간병통합서비스 병동 이용 시에는 일반 간병인 일당 대신 통합병동 특약 해당 여부를 확인해야 합니다.`
+      },
+      diagnosis: {
+        userLabel: '🩺 3대 진단비·수술비 약관 해석',
+        lawTag: '질병분류코드(KCD) · 약관 해석 원칙',
+        reply: `<strong>[암·뇌·심장 진단비 및 수술비 약관 안내]</strong><br>
+        • <strong>코드 확인:</strong> 뇌혈관(I60~I69)·허혈성심장(I20~I25)처럼 보장 범위가 넓은 코드인지, 뇌출혈·급성심근경색만 보장하는 좁은 특약인지 가입 시기별 증권을 반드시 확인해야 합니다.<br>
+        • <strong>작성자 불이익 원칙:</strong> 약관 뜻이 다의적으로 해석될 때는 고객에게 유리하게 해석해야 합니다.`
+      },
+      fire_liability: {
+        userLabel: '🔥 화재보험·누수 배상책임(일배책)',
+        lawTag: '상법 제652조 · 민법 제758조 기준',
+        reply: `<strong>[화재보험 통지의무 & 누수 배상책임 안내]</strong><br>
+        • <strong>상법 통지의무:</strong> 상가·공장 업종 변경 시 보험사에 알리지 않으면 화재 시 감액 보상될 수 있으며, <strong>재조달가액 기준</strong> 가입이 핵심입니다.<br>
+        • <strong>일상생활배상책임:</strong> 우리 집 누수로 아랫집 피해를 입힌 경우 누수 탐지비·방수공사비 및 손해배상금을 보상받을 수 있습니다.`
+      },
+      claim_help: {
+        userLabel: '📋 전 보험사 일괄 청구·증권 점검',
+        lawTag: '27개 제휴 보험사 청구·관리 대행',
+        reply: `<strong>[보험금 청구 대행 & 무료 증권 점검 안내]</strong><br>
+        • 상품 가입 권유 없이 현재 유지 중인 보험의 중복 담보와 미청구 보험금을 객관적으로 점검해 드립니다.<br>
+        • 병원 영수증·세부내역서·진단서를 보내주시면 27개 손해·생명보험사 일괄 청구를 대행해 드립니다.`
+      }
+    };
+
+    function toggleChat(forceOpen) {
+      const win = document.getElementById('chatWindow');
+      const isOpen = win.classList.contains('open');
+      const nextState = typeof forceOpen === 'boolean' ? forceOpen : !isOpen;
+      win.classList.toggle('open', nextState);
+
+      if (nextState && !chatInitialized) {
+        chatInitialized = true;
+        showWelcomeMessage();
+      }
+    }
+
+    function appendBotHtml(html, showChips = true) {
+      const div = document.createElement('div');
+      div.className = 'msg bot';
+      div.innerHTML = html;
+      chatBody.appendChild(div);
+
+      if (showChips) {
+        const chipWrap = document.createElement('div');
+        chipWrap.className = 'quick-chips';
+        chipWrap.innerHTML = `
+          <button class="chip-btn" onclick="selectScenario('silson')">🏥 실손·상한제 분쟁</button>
+          <button class="chip-btn" onclick="selectScenario('caregiver')">🛏️ 간병인 일당 청구</button>
+          <button class="chip-btn" onclick="selectScenario('diagnosis')">🩺 진단비·수술비 약관</button>
+          <button class="chip-btn" onclick="selectScenario('fire_liability')">🔥 화재·누수 배상책임</button>
+          <button class="chip-btn" onclick="selectScenario('claim_help')">📋 청구대행·증권점검</button>
+          <button class="chip-btn urgent" onclick="showUrgentEscalation()">🚨 박문성 팀장 직접 연결</button>
+        `;
+        chatBody.appendChild(chipWrap);
+      }
+      chatBody.scrollTop = chatBody.scrollHeight;
+    }
+
+    function appendUserText(text) {
+      const div = document.createElement('div');
+      div.className = 'msg user';
+      div.textContent = text;
+      chatBody.appendChild(div);
+      chatBody.scrollTop = chatBody.scrollHeight;
+    }
+
+    function showWelcomeMessage() {
+      appendBotHtml(`
+        안녕하세요! <strong>박씨네 보험톡 · 올바른 보험케어 AI 안내실</strong>입니다.<br><br>
+        상품 가입 권유 없이, 궁금하신 <strong>보험 용어·제도 변경·보험금 청구 분쟁 기준</strong>을 친절히 설명해 드립니다.<br>
+        아래에서 궁금한 주제를 선택하시거나 키워드를 입력해 주세요.
+      `, true);
+    }
+
+    function selectScenario(key) {
+      const sc = scenarios[key];
+      appendUserText(sc.userLabel);
+      setTimeout(() => {
+        appendBotHtml(`
+          <span class="msg-law-tag">📚 ${sc.lawTag}</span><br>
+          ${sc.reply}<br><br>
+          <span style="color:#475569; font-size:0.82rem;">※ 실제 청구 서류 검토나 보험사 분쟁 대응이 필요하시면 아래 <strong>[박문성 팀장 직접 연결]</strong>을 눌러주세요.</span>
+        `, true);
+      }, 250);
+    }
+
+    function showUrgentEscalation() {
+      appendUserText('🚨 박문성 분석팀장 1:1 전화 / 카톡 / 이메일 연결');
+      setTimeout(() => {
+        appendBotHtml(`
+          <span class="msg-law-tag" style="background:#fef2f2; color:#b91c1c;">📞 보험사보다 먼저 연락 주세요</span><br>
+          <strong>박문성 분석팀장</strong>이 증권 분석부터 보험금 청구 대행까지 직접 도와드립니다.<br><br>
+          <div style="display:flex; gap:6px; margin:8px 0 12px;">
+            <a href="tel:010-2062-4600" style="flex:1; padding:10px 6px; background:#0f766e; color:#fff; text-align:center; border-radius:8px; font-weight:800; font-size:0.82rem;">
+              📞 직통 전화
+            </a>
+            <a href="${kakaoChatUrl}" target="_blank" style="flex:1; padding:10px 6px; background:#fee500; color:#191919; text-align:center; border-radius:8px; font-weight:800; font-size:0.82rem;">
+              💬 카톡 문의
+            </a>
+          </div>
+          <strong>간편 이메일 상담 · 서류 검토 접수</strong>
+          <form class="mini-form" onsubmit="submitMiniForm(event, this)">
+            <input type="text" name="성함" placeholder="성함 (또는 닉네임)" required />
+            <input type="tel" name="연락처" placeholder="회신받으실 연락처 (010-0000-0000)" required />
+            <textarea name="문의내용" rows="3" placeholder="가입 보험사, 치료 내용 또는 궁금하신 약관을 적어주세요." required></textarea>
+            <label class="mini-privacy">
+              <input type="checkbox" name="개인정보수집이용동의" value="동의함" required />
+              <span>[필수] 개인정보 수집·이용 동의</span>
+            </label>
+            <button type="submit">✉️ 박문성 팀장 이메일로 즉시 접수</button>
+          </form>
+        `, false);
+      }, 250);
+    }
+
+    function submitMiniForm(e, formEl) {
+      e.preventDefault();
+      const formData = new FormData(formEl);
+      formData.append('접수경로', '박씨네 보험톡 AI 안내실');
+
+      fetch('https://formspree.io/f/xljblkwg', {
+        method: 'POST',
+        body: formData,
+        headers: { 'Accept': 'application/json' }
+      }).then(res => {
+        if (res.ok) {
+          appendBotHtml(`✅ <strong>박문성 분석팀장 이메일로 정상 접수되었습니다!</strong><br>내용 확인 후 남겨주신 연락처로 친절히 안내해 드리겠습니다.`, true);
+        } else {
+          alert('전송 중 일시적인 오류가 발생했습니다. 010-2062-4600으로 바로 전화 주시면 즉시 안내해 드리겠습니다.');
+        }
+      }).catch(() => {
+        alert('네트워크 연결을 확인해 주세요. 급하신 경우 010-2062-4600으로 전화 부탁드립니다.');
+      });
+    }
+
+    function sendUserText() {
+      const input = document.getElementById('chatInput');
+      const text = input.value.trim();
+      if (!text) return;
+      input.value = '';
+      appendUserText(text);
+
+      const lower = text.toLowerCase();
+      setTimeout(() => {
+        if (lower.includes('실손') || lower.includes('상한제') || lower.includes('환급') || lower.includes('비급여')) {
+          selectScenario('silson');
+        } else if (lower.includes('간병') || lower.includes('일당') || lower.includes('입원')) {
+          selectScenario('caregiver');
+        } else if (lower.includes('진단') || lower.includes('수술') || lower.includes('암') || lower.includes('뇌') || lower.includes('심장')) {
+          selectScenario('diagnosis');
+        } else if (lower.includes('화재') || lower.includes('누수') || lower.includes('배상') || lower.includes('일배책')) {
+          selectScenario('fire_liability');
+        } else if (lower.includes('청구') || lower.includes('증권') || lower.includes('분석') || lower.includes('리모델링')) {
+          selectScenario('claim_help');
+        } else {
+          appendBotHtml(`
+            입력하신 <strong>"${text}"</strong> 건은 가입하신 상품의 약관과 진단·치료 내역을 함께 살펴보아야 정확한 안내가 가능합니다.<br><br>
+            아래에서 <strong>직통 전화·카톡 문의</strong> 또는 <strong>간편 이메일 접수</strong>를 이용해 주시면 박문성 분석팀장이 친절히 설명해 드리겠습니다.
+          `, false);
+          showUrgentEscalation();
+        }
+      }, 300);
+    }
+  </script>
+
+</body>
+</html>
